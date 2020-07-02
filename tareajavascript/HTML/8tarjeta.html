@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Maestra paseme</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../CSS/estilos.css">
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="../JS/jstarjeta.js"></script>
+</head>
+<marquee behavior="alternate" scrollamount="10">
+<strong>Maestra no me repruebe, no me salen los programas</strong>
+</marquee>
+<body>
+	<nav id="menu">
+		<a href="index.html">Dibuja cajas</a>
+		<a href="8tarjeta.html">Crea una tarjeta</a> 
+	</nav>
+	<section id="imgsel">
+		<h1 id="colorazul">¡Crea una tarjeta especial para esa persona especial!</h1>
+			<article>
+				<h3 id="colorama">Elige un tema</h3>
+			    <img src="../MEDIOS/sv.jpg" class="imagenes">
+			    <input type="radio" name="sv" id="sv">San Valentín
+		    </article>
+		    <article>
+			    <img src="../MEDIOS/fc.jpg" class="imagenes">
+			    <input type="radio" name="fc" id="fc">Feliz Cumpleaños
+		    </article>
+		    <article>
+			    <img src="../MEDIOS/mo1.jpg" class="imagenes">
+      			<input type="radio" name="mo" id="mo">Motivacional
+		    </article>
+		<article>
+			<h2 id="colorama">Titulo
+				<input type="text" name="titu" id="tiulo">
+			</h2>
+			<br>
+			<input type="text" name="subti" id="subti" placeholder="Subtitulo">
+			<br>
+			<textarea cols="70" rows="20" required placeholder="Escriba aquí su mensaje" id="mensaje"></textarea>
+			<br>
+			<input type="text" name="autor" id="autor" placeholder="Autor">	
+		</article>
+		<article>
+			Añade una canción<input type="file" name="audio">
+		</article>
+		<article>
+			<h3 id="colorama">Color de fondo</h3>
+			<h5 id="rosa">Rosa<input type="radio" name="fondo" value="1" id="ros"></h5>
+			<h5 id="naranja">Naranja<input type="radio" name="fondo" value="2" id="nar"></h5> 
+			<h5 id="morado">Morado<input type="radio" name="fondo" value="3" id="mor"></h5>
+			<h5 id="azul">Azul<input type="radio" name="fondo" value="4" id="azu"></h5>
+			<h5 id="verde">Verde<input type="radio" name="fondo" value="5" id="ver"></h5>
+		</article>
+		<input type="button" value="Generar" id="generar" onclick="hacertarjeta();">
+	</section>
+	<section id="xd">
+		<div id="haciendo"></div>
+	</section>
+</body>
+</html>

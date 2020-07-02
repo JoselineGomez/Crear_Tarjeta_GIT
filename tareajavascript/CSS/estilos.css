@@ -1,0 +1,35 @@
+body{background-color: #000000; font-family: 'Fredoka One', cursive;}
+marquee{font-family: 'Fredoka One', cursive; font-size: 1.3rem; color: #39ff14;}
+p{color: #00a1fc;}
+#ejedos h1{font-size: 1.4rem; text-align: center; padding-top: 23%; color: #ff00b6;}
+#boton{display: flex; perspective: 200px;}
+#ejedos button{border: none; color: #fff; padding: 18px 34px; text-align: center; text-decoration: none; display: inline-block; font-size: 20px; font-family: 'Chakra Petch', sans-serif; margin: auto; transition-duration: 0.7s; cursor: pointer; background-color: #ff6905; border-style: none; transition: all 300ms; animation: btn-rotar 10s infinite;}
+#ejedos button:hover{background-color: #00a1fc /*e706ff*/; color: #fff; transition: all 300ms; box-shadow: 5px 5px 10px #4E253E;}
+#ejedos button:active{background: #ff00b6; transition: all 100ms; color: #000000; transform: scale(0.8);}
+@keyframes btn-rotar{from{transform: rotateX(0deg);}to{transform: rotateY(360deg);}}
+
+nav{width: 100%; height: 50px; float: center; text-align: center; padding-top: 24px;}
+nav a{color: #C71585; font-size: 13px; text-decoration: none; text-transform: uppercase; padding-left: 20px; font-weight: bold; letter-spacing: 1px;}
+nav a:hover{color: #ff6905;}
+h2{font-family: 'Fredoka One', cursive; text-indent: 4rem;}
+span{font-family: Courier New; font-size: 1.8rem; text-align: left;}
+.contenido{width:100%; overflow:hidden;}
+.formulario{position:relative; background-color:#9932cc; font-size:1.5rem; font-family: Courier New;}
+.cajita{width:600px; padding:10px; margin:10px auto; text-align:center;}
+.impresion{position:relative; background-color:#7fff00; font-size:1.5rem; font-family: Courier New; height: 100px;}
+#resultado{transition: all 0.4s ease-in-out;}
+.clase{width:500px; line-height:50px; border:solid 1px #000000; padding:10px; margin:10px auto;}
+
+#colorazul{color: #00bcf4;}
+#colorama{color: #fffb0a;}
+#imgsel, #haciendo{width: 100%; padding: 2%; text-align: center;}
+.imagenes{width: 100%; height: 250px;}
+#imgsel article{padding: 1%; width: 25%; color: #00bcf4;}
+#rosa{color: #C71585;}
+#naranja{color: #ff6905;}
+#morado{color: #bc00ff;}
+#azul{color: #00bcf4;}
+#verde{color: #39ff14;}
+#haciendo{background-color: #C9C9C9; display: flex;}
+input{border: none; color: #000000; padding: 18px 34px; text-align: center; text-decoration: none; display: inline-block; font-size: 20px; font-family: 'Chakra Petch', sans-serif; margin: auto; cursor: pointer; background-color: #00bcf4; border-style: none;}
+input:hover{background-color: #fffb0a; color: #000000;}

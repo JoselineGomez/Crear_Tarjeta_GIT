@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Maestra paseme</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../CSS/estilos.css">
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="../JS/jsuno.js"></script>
+</head>
+<marquee behavior="alternate" scrollamount="10">
+<strong>Maestra no me repruebe, yo sigo todas sus instrucciones</strong>
+</marquee>
+<body>
+	<nav id="menu">
+		<a href="index.html">Dibuja cajas</a> 
+		<a href="8tarjeta.html">Crea una tarjeta</a>     
+	</nav>
+	<section class="contenido formulario">
+          <article id="if" class="cajita">
+			<h2>Hola!<span>  Checa si ya puedes votar</span></h2>
+			Nombre <input type="text" id="nombre" placeholder="&#128100; Nombre(s)" required autofocus>
+			<br>
+            Apellido <input type="text" id="apellido" placeholder="&#128100; Apellidos paterno y materno" required autofocus>
+            <br>
+			¿Qué parte de tu ciudad te gusta más?
+			<br>
+			<input type="radio" name="opcion" value="a">Lado Norte
+			<input type="radio" name="opcion" value="b">Lado Sur
+			<input type="radio" name="opcion" value="c">Centro
+			<br>
+			<input type="button" value="Checar" onclick="cuestionario();">
+		</article>
+    </section>
+    <section class="contenido impresion">
+    	<p id="resultado" class="clase"></p>
+    </section>
+</body>
+</html>
